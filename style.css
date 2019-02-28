@@ -2,7 +2,7 @@
 .header-content {
     text-align: center;
     padding: 20px;
-    background-image: url("dark-paths.png");
+    background-image: url("images/dark-paths.png");
     color: whitesmoke;
 }
 
@@ -30,7 +30,7 @@ body {
     
 }
 .navbar {
-    background-image: url("dark-paths.png");
+    background-image: url("images/dark-paths.png");
     width: 100%;
     color: whitesmoke;
     text-align: center;
@@ -74,6 +74,12 @@ form {
 
 .btn:hover {
     background-color: lightslategray;
+}
+
+.portfolio-links {
+    height: 200px;
+    width: 200px;
+    float: left;
 }
 
 
