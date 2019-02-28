@@ -1,0 +1,79 @@
+/*This content is active in all html documents.*/
+.header-content {
+    text-align: center;
+    padding: 20px;
+    background-image: url("dark-paths.png");
+    color: whitesmoke;
+}
+
+body {
+    font-family: 'Lora', serif;
+    color: rgb(1, 1, 82);
+    background-color: whitesmoke;
+    overflow: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.media {
+    overflow:auto;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2px dotted;
+    margin: 40px;
+    
+}
+.navbar {
+    background-image: url("dark-paths.png");
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    position: sticky;
+}
+
+.navbar-text {
+    font-size: 10px;
+    opacity: .5;
+}
+
+.nav-link:hover {
+    color: lightslategray;
+}
+
+.mt-0 {
+    text-align: justify;
+}
+
+/*This content is active on contact.html document only.*/
+#contact-label {
+    position: absolute;
+    left: 120px;
+}
+
+form {
+    padding: 80px 40px 20px 40px;
+    width: 100%;
+}
+
+#inputtext3 {
+    height: 200px;
+}
+
+.btn {
+    color:rgb(1, 1, 82);
+    background-color: lightslategray;
+}
+
+.btn:hover {
+    background-color: lightslategray;
+}
+
+
