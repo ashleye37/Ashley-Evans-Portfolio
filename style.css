@@ -21,10 +21,9 @@ body {
     color: whitesmoke;
 }
 
-.media {
+.body-container {
     overflow:auto;
     padding: 40px;
-    box-sizing: border-box;
     border: 2px dotted;
     margin: 40px;
     
@@ -51,6 +50,7 @@ body {
 .mt-0 {
     text-align: justify;
 }
+
 
 /*This content is active on contact.html document only.*/
 #contact-label {
@@ -79,7 +79,55 @@ form {
 .portfolio-links {
     height: 200px;
     width: 200px;
-    float: left;
+}
+
+.col-md-4 {
+    margin-left: 100px;
+    padding-bottom: 20px;
+}
+
+.labels {
+    padding: 10px;
+    background-color: whitesmoke;
+}
+#abstract {
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    text-align: center;
+    border: rgb(1, 1, 82) solid;
+}
+
+#animals {
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    text-align: center;
+    border: rgb(1, 1, 82) solid;
+}
+
+#food {
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    text-align: center;
+    border: rgb(1, 1, 82) solid;
+}
+
+#nature {
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    text-align: center;
+    border: rgb(1, 1, 82) solid;
+}
+
+#transport {
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    text-align: center;
+    border: rgb(1, 1, 82) solid;
 }
 
 
