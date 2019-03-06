@@ -39,6 +39,14 @@ body {
     position: sticky;
 }
 
+.social-links {
+    display: flex;
+}
+
+.social-column {
+    flex: 33.3%;
+    width: 100%;
+}
 .navbar-text {
     font-size: 10px;
     opacity: .5;
@@ -52,6 +60,11 @@ body {
     text-align: justify;
 }
 
+#headshot {
+    max-width: 200px;
+    height: 150px;
+    width: 100%;
+}
 
 /*This content is active on contact.html document only.*/
 #contact-label {
