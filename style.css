@@ -60,10 +60,6 @@ body {
     color: lightslategray;
 }
 
-.mt-0 {
-    text-align: justify;
-}
-
 #headshot {
     max-width: 200px;
     height: 200px;
