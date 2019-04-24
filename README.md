@@ -6,5 +6,5 @@ Technologies used: Javascript, HTML and Bootstrap.
 
 Welcome to the portfolio for Ashley Evans! This portfolio displays the knowledge that has been gained over the course of the UW Fullstack Coding Bootcamp. 
 
-##Link
+## Link
 https://ashleye37.github.io/Ashley-Evans-Portfolio/
