@@ -1,69 +1,60 @@
-/*This content is active in all html documents.*/
-.header-content {
-    text-align: center;
-    /* padding: 20px; */
-    background-image: url("images/dark-paths.png");
-    color: whitesmoke;
-}
-
 body {
     font-family: 'Lora', serif;
-    color: rgb(1, 1, 82);
-    background-color: whitesmoke;
-    overflow: auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.nav-link {
     color: whitesmoke;
+    background: linear-gradient(41deg, #8789a1, #2e7673, #ccc4d9);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 14s ease infinite;
+    -moz-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;
 }
 
-.body-container {
-    overflow:auto;
-    padding: 40px 20px 40px 20px;
-    border: 2px dotted;
-    margin: 40px 300px;
-   
-    
+@-webkit-keyframes AnimationName {
+    0%{background-position: 0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position: 0% 50%}
 }
-.navbar {
-    background-image: url("images/dark-paths.png");
-    width: 100%;
-    color: whitesmoke;
+@-moz-keyframes AnimationName {
+    0%{background-position: 0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position: 0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position: 0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position: 0% 50%}
+}
+
+#ashley {
     text-align: center;
-    justify-content: center;
-    flex-direction: row;
-    position: sticky;
+    padding: 15px;
 }
 
-.social-links {
-    display: flex;
+#ashleyBio {
+    text-align: left;
+    max-width: 60%;
+    margin-top: 100px;
+    padding: 20px;
+    align-content: center;
 }
 
-#contact {
-    text-align: center;
-}
-
-.social-column {
-    flex: 33.3%;
-    width: 100%;
-}
-.navbar-text {
-    font-size: 10px;
-    opacity: .5;
-}
-
-.nav-link:hover {
-    color: lightslategray;
+#aboutMe {
+    text-align: left;
+    margin-bottom: 15px;
 }
 
 #headshot {
-    max-width: 200px;
-    height: 200px;
-    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+#contact {
+    max-width: 40%;
+    padding: 20px;
+    margin-left: 15px;
 }
 
 /*This content is active on contact.html document only.*/
@@ -95,58 +86,13 @@ form {
     width: 200px;
 }
 
-.col-md-4 {
-    margin-left: 100px;
-    padding-bottom: 20px;
+.portfolioItems {
+    padding: 20px;
+    text-align: center;
 }
-
-.portfolio-position {
-    width: 80%;
-}
-
 
 .labels {
-    padding: 10px;
-    background-color: whitesmoke;
-}
-#abstract {
-    position: absolute;
-    bottom: 40px;
-    width: 200px;
-    text-align: center;
-    border: rgb(1, 1, 82) solid;
-}
-
-#animals {
-    position: absolute;
-    bottom: 40px;
-    width: 200px;
-    text-align: center;
-    border: rgb(1, 1, 82) solid;
-}
-
-#food {
-    position: absolute;
-    bottom: 40px;
-    width: 200px;
-    text-align: center;
-    border: rgb(1, 1, 82) solid;
-}
-
-#nature {
-    position: absolute;
-    bottom: 40px;
-    width: 200px;
-    text-align: center;
-    border: rgb(1, 1, 82) solid;
-}
-
-#transport {
-    position: absolute;
-    bottom: 40px;
-    width: 200px;
-    text-align: center;
-    border: rgb(1, 1, 82) solid;
+    color: whitesmoke;
 }
 
 
